@@ -4,6 +4,6 @@ metadata:
   name: mypod
 spec:
   containers:
-  - name: mycontainerapp
-    image: mycontainerapp:latest
-    imagePullPolicy: IfNotPresent
+    - name: mycontainerapp
+      image: mycontainerapp
+      imagePullPolicy: IfNotPresent
